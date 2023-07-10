@@ -1,0 +1,55 @@
+Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+
+Ans = <!DOCTYPE html> declaration is not an HTML tag. It is an instruction to the web browser about what version
+of HTML the page is written in. This ensures that the web page is parsed the same way by different web browsers.
+It is called as the document type declaration (DTD).
+
+Q.2 Explain Semantic tags in html? And why do we need it?
+
+Ans = Semantic tags help the search engines and other user devices to determine the importance and context of web
+pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a 
+better user experience. It makes the HTML more comprehensible by better defining the different sections and layout 
+of web pages.
+
+Q.3 Differentiate between HTML Tags and Elements?
+
+Ans = HTML tags usually exist in pairs consisting of a starting and an ending tag. However, some tags do not have a 
+closing tag. 
+HTML Elements contain a starting tag, content, and an ending tag. If there is no content in an HTML Element, it is
+called an Empty HTML Element.
+
+Q.6 What are some of the advantages of HTML5 over its previous versions?
+
+Ans = some of the advantages of HTML5 are
+      -> MUltimedia support
+      -> Short and simple syntax
+      -> Improved security features
+      -> Include semantic tags
+      -> Cross-platform support
+
+Q.8 What is the difference between <figure> tag and <img> tag?
+
+Ans = The figure tag is used to semantically organize the content of images, videos, audios or even charts or tables,
+block of codes in the HTML document.
+<figure> tag is a container tag. 
+This tag provides a container for content that is equivalent to a figure.
+The image tag is used to add an image to an HTML page. <img> tag can only insert image.
+<img> tag is a void tag.
+The HTML <img> tag is used for embedding images into an HTML document.
+
+Q.9 What’s the difference between html tag and attribute  and give example of some global attributes?
+
+Ans = A tag is a way of representing an HTML element in the program . 
+HTML tags are used to hold the HTML element. HTML element holds the content.
+HTML tags are almost like keywords where every single tag has unique meaning.
+
+Attribute:
+An attribute is a way of describing the characteristics of an HTML element.
+HTML attributes specify various additional properties to the existing HTML element.
+Give example of some global attributes:
+-> id : It is a unique identifier that is used to specify the document and used by CSS and JavaScript to perform
+a certain task for a unique element.
+-> lang : It is used to specify the language of the element content.
+-> style : It describe how a document will be presented in a browser.
+-> title : It is used to define the title of an HTML document, sets the title in the browser toolbar, and provides
+the title for the web page when it is added to favorites.

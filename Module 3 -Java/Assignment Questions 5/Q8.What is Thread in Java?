@@ -1,0 +1,16 @@
+Q8.What is Thread in Java?
+
+Ans  = A thread is a thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution
+running concurrently. Every thread has a priority. Threads with higher priority are executed in preference to threads with lower priority.
+
+class Multi extends Thread{  
+public void run(){  
+System.out.println("thread is running...");  
+}  
+public static void main(String args[]){  
+Multi func1=new Multi();  
+func1.start();  
+Multi func2=new Multi();  
+func2.start();  
+ }  
+}  

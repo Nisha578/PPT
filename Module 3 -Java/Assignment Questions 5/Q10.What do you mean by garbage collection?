@@ -1,0 +1,7 @@
+Q10.What do you mean by garbage collection?
+
+Ans = Garbage collection in Java is the automated process of deleting code that's no longer needed or used. This automatically frees up
+memory space and ideally makes coding Java apps easier for developers. Java applications are compiled into bytecode that may be executed 
+by a JVM.Garbage collection in Java is the automated process of deleting code that's no longer needed or used. This automatically frees up
+memory space and ideally makes coding Java apps easier for developers. Java applications are compiled into bytecode that may 
+be executed by a JVM.

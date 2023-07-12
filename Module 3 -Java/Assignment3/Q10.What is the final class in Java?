@@ -1,0 +1,24 @@
+The final class is a class that is declared with the final keyword. Subclasses can't inherit a final class or 
+a final class cannot be inherited by any subclass. So, we can restrict class inheritance by making use of a final class.
+Syntax:
+final class className 
+{
+    // Body of class
+}
+Program:
+final class myFinalClass 
+{
+    void myFinalMethod() 
+    {
+        System.out.println("We are in the final class we just created");
+    }
+}
+
+class MainClass
+{
+    public static void main(String arg[])
+    {
+        myFinalClass fc = new myFinalClass();
+        fc.myFinalMethod();
+    }
+}

@@ -1,0 +1,15 @@
+Q9.What is the benefit of lambda expressions in Java 8?
+
+Ans = Conciseness
+Functional interfaces can be succinctly represented using lambda expressions. Functional interfaces, which are interfaces with
+a single abstract method, are the fundamental units of Java 8's lambda expressions. We can more succinctly explain the implementation 
+of the functional interface using a lambda expression than we can with an unnamed inner class.
+
+Readability
+Lambda expressions make the code more readable by eliminating the need for boilerplate code that would typically be required 
+for anonymous inner classes. This makes the code more expressive and easier to understand, as the programmer can focus on the 
+intent of the code rather than the implementation details.
+
+Flexibility
+We are able to develop more adaptable code with lambda expressions. We may quickly give behaviour to a method as a parameter by 
+utilising functional interfaces and lambda expressions. As a result, our code is more modular and can be applied to various situations.

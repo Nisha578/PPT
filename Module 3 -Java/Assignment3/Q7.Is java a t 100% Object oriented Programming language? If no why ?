@@ -1,0 +1,3 @@
+->No, Java is not a fully object-oriented language as it supports primitive data types like int, byte, long, short, etc., 
+which are not objects.Hence these data types like int, float, double, etc., are not object-oriented.
+That's why Java is not 100% object-oriented.

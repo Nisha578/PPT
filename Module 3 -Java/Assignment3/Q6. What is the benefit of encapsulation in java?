@@ -1,0 +1,6 @@
+Benefits:
+-> Encapsulation prevents access to data members and data methods by any external classes. 
+-> The encapsulation process improves the security of the encapsulated data.
+->  Encapsulation protects an object from unwanted access by clients.
+-> Encapsulation allows access to a level without revealing the complex details below that level.
+-> We can hide the operation and structure of the actual program from the user and show only the user's required information.

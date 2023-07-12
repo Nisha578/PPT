@@ -1,0 +1,17 @@
+Q5.What is multithreading in Java? mention its advantages
+
+Ans =  Multithreading is used to achive multitasking. 
+Multithreading refers to a process of executing two or more threads simultaneously formaximum utilization of the CPU. 
+A thread in Java is a lightweight process requiring fewer resources to create and share the process resources.
+
+Advantages: 
+
+-> Improved throughput. Many concurrent compute operations and I/O requests within a single process.
+
+-> Simultaneous and fully symmetric use of multiple processors for computation and I/O
+
+-> Superior application responsiveness. If a request can be launched on its own thread, applications do not freeze or show the "hourglass". 
+An entire application will not block, or otherwise wait, pending the completion of another request.
+
+-> Improved server responsiveness. Large or complex requests or slow clients don't block other requests for service. 
+The overall throughput of the server is much greater.

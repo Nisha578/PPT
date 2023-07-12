@@ -1,0 +1,19 @@
+Q8.What is the functional interface in Java 8?
+
+Ans = A functional interface is an interface with only one abstract method
+Lambdas are matched to functional interfaces, allowing the compiler to interpret the type of the variables in the argument list
+The parameters of the lambda expression must match the parameters of the single method and the return type of the lambda must 
+match the return type of the single method.
+
+@FunctionalInterface
+public interface Comparator<T> {
+    int compare(T o1, T o2);
+}
+Anonymous classes were used as a workaround for passing references to functions, that is, compare in this case
+
+Comparator<Person> descName = new Comparator<Person>() {
+    @Override
+    int compare(Person o1, Person o2) {
+        return o1.getName().compareTo(o2.getName());
+    }
+}

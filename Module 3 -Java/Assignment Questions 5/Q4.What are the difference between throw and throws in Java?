@@ -1,0 +1,32 @@
+Q4.What are the difference between throw and throws in Java?
+
+Ans = The Throw Keyword:
+The throw keyword is used to throw an exception explicitly by the programmer
+
+    if ( b===0 ) {
+       throw new ArithmeticException("Div by 0");
+          }
+     else{
+             return a/b ;
+         }
+In a similar manner, we can throw user-defined exceptions:                                              
+
+ throw new My Exception ( "Exception throw" );
+
+The throw Keyword:
+Throws java throws keyword is used to declare an exception.
+
+This gives information to the programmer that there might be an exception so it's better to be prepared with a try-catch block!
+
+    public void calculate (int a, int b) throws IOException {
+
+            // code
+
+    }
+
+The Throws Keyword:
+
+-> Java throws keyword is used in the method signature to declare an exception which might be thrown by the function
+while the execution of the code.
+
+-> The throws keyword is followed by class names of Exceptions to be thrown.

@@ -1,0 +1,13 @@
+body {
+  background-color: #2a2323;
+}
+
+th {
+  font-size: 22px;
+}
+
+td {
+  border: none;
+  color: black;
+  font-size: 18px;
+}

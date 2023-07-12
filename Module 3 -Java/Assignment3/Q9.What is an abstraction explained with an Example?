@@ -1,4 +1,17 @@
-->  Abstraction is a technique of hiding unnecessary details from the user.
+->  Abstraction is a technique of hiding unnecessary details from the user. 
+
 -> Abstraction is the main feature of the oops program where it can only show the essential details without including background details.
+
+-> Abstraction, as used in computer science, is a simplified expression of a series of tasks or attributes that allow for a more defined,
+accessible representation of data or systems. In computer programming, abstraction is often considered a means of “hiding” additional 
+details, external processes and internal technicalities to succinctly and efficiently define, replicate and execute a process.
+
 -> For example Car, while describing the only main feature of the car such as price, model, and speed but not showing how car works, how the 
 engine works, how we can wear belts.
+
+-> Baking a cake. If you are following a recipe to bake a cake, you are using abstraction. In this example, you’re following only 
+the necessary steps to prepare and bake the batter. You are not calculating or analyzing the science behind different leavening
+agents and baking temperatures and may not understand the inner workings of the oven’s temperature control and timing mechanisms.
+However, you can still complete the task of baking a cake since these intricacies are automatically 
+accounted for when you measure the ingredients into a bowl, mix and place the batter-filled pan in the oven for the specified amount 
+of time.

@@ -1,0 +1,4 @@
+Q10.Is it mandatory for a lambda expression to have parameters?
+
+Ans = A lambda expression is characterized by the following syntax. Following are the important characteristics of a lambda expression. 
+Optional type declaration − No need to declare the type of a parameter. The compiler can inference the same from the value of the parameter.

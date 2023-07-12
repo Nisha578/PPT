@@ -1,0 +1,16 @@
+Q6.What is the lambda expression of Java 8?
+
+Ans = Lambda expressions were one of the new features that was introduced in Java 8.
+
+They help clean up verbose code by providing a concise and local way to reduce redundancy by keeping code short and self-explanatory.
+
+In addition to saving code, Java’s lambda expressions are important in functional programming. They allow developers to write in a
+functional style by acting as functions without belonging to any class.
+
+Lambda expressions allow us to implement functional interfaces by converting them into instances of functional interfaces. 
+This provides a reference to the function. For example, a lambda passed as a parameter is indistinguishable to calling an 
+implemented interface method). Thus, the references are used effectively as a function type object that can be passed and called on.
+
+Syntax
+([argument-list]) -> {body} 
+Lambda expressions have an optional argument list and a body

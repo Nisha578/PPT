@@ -1,0 +1,5 @@
+Q1.What is Exception in Java?
+
+Ans = An exception is an event that occurs during the execution of a program that disrupts the normal flow of instructions.
+ An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's 
+instructions. When an error occurs within a method, the method creates an object and hands it off to the runtime system.

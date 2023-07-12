@@ -1,0 +1,4 @@
+->  Abstraction is a technique of hiding unnecessary details from the user.
+-> Abstraction is the main feature of the oops program where it can only show the essential details without including background details.
+-> For example Car, while describing the only main feature of the car such as price, model, and speed but not showing how car works, how the 
+engine works, how we can wear belts.

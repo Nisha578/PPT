@@ -1,1 +1,12 @@
 Q7.What is the Differentiate between Comparable and Comparator
+
+Ans = Comparable:
+=> A comparable interface is implemented by all the String class and wrapper classes. Moreover, custom objects use a
+comparable interface for sorting. 
+=> Comparable affects the original class, i.e., the actual class is modified.
+=> Comparable provides compareTo() method to sort elements.
+
+Comparator:
+=>  The comparator interface is chiefly used to sort the custom objects. You can use it to compare the objects of different classes too.
+=> Comparator doesn't affect the original class, i.e., the actual class is not modified.
+=> Comparator provides compare() method to sort elements.

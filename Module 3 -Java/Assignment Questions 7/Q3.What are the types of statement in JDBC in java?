@@ -1,0 +1,11 @@
+Q3.What are the types of statement in JDBC in java?
+
+Ans =  Statement: This is used to create simple SQL statements with no parameter. 
+An example is: Statement statemnt1 = conn.createStatement();. This statement returns the ResultSet object.
+
+PreparedStatement: This extends the Statement interface. It improves the application's performance because it has more features
+and compiles the query only once. It is used for precompiled SQL statements that have parameters.
+
+CallableStatement: CallableStatements also extends the PreparedStatement interface. It is used for SQL statements with 
+parameters that invoke procedure or function in the database. It is simply created by calling the prepare all method of the connection
+object.

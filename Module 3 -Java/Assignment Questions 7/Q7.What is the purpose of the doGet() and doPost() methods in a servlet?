@@ -1,0 +1,11 @@
+Q7.What is the purpose of the doGet() and doPost() methods in a servlet?
+
+Ans = The doGet method is called by the server (via the service method) when the client requests a GET request.
+It is used to retrieve information from the server. 
+ 
+-> doGet() shall be used when small amount of data and insensitive data like a query has to be sent as a request. 
+
+-> The doPost method is called by the server (via the service method) when the client requests a POST request. 
+It is used to send information to the server.
+
+->doPost() shall be used when comparatively large amount of sensitive data has to be sent.

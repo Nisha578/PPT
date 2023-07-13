@@ -1,0 +1,11 @@
+Q5.Differentiate between List and Set in Java.
+
+Ans = List:
+=> 1. The List is an indexed sequence.
+2. List allows duplicate elements.
+3. Elements by their position can be accessed.
+
+Set:
+=> 1. The Set is an non-indexed sequence.
+2. Set doesn't allow duplicate elements.
+3. Position access to elements is not allowed.

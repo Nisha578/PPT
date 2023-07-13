@@ -1,0 +1,21 @@
+Q5.Explain the life cycle of servlet?
+
+Ans =  the life cycle of the servlet:
+
+-> Servlet class is loaded.
+The classloader is responsible to load the servlet class. The servlet class is loaded when the first request for the servlet 
+is received by the web container.
+
+-> Servlet instance is created.
+The web container creates the instance of a servlet after loading the servlet class. The servlet instance is created only once in the 
+servlet life cycle.
+
+-> init method is invoked.
+public void init(ServletConfig config) throws ServletException 
+
+-> service method is invoked.
+public void service(ServletRequest request, ServletResponse response)   
+  throws ServletException, IOException  
+
+-> destroy method is invoked.
+public void destroy()  

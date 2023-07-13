@@ -1,0 +1,9 @@
+Q.4 What is the purpose of using Media Queries for Print Media?
+
+Ans = Media queries allow you to apply CSS styles depending on a device's general type (such as print vs. screen) or other
+characteristics such as screen resolution or browser viewport width.
+
+Media queries are used for the following: 
+->To conditionally apply styles with the CSS @media and @import at-rules.
+
+-> To target specific media for the <style>, <link>, <source>, and other HTML elements with the media= attribute.

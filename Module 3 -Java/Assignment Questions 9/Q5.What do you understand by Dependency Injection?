@@ -1,0 +1,9 @@
+Q5.What do you understand by Dependency Injection?
+
+Ans = Dependency injection enables us to turn regular Java classes into managed objects and to inject them into any other managed object.
+Using dependency injection, our code can declare dependencies on any managed object. The container automatically provides instances of 
+these dependencies at the injection points at runtime, and it also manages the lifecycle of these instances for us.
+
+Dependency injection in Java EE defines scopes, which determine the lifecycle of the objects that the container instantiates and injects.
+For example, a managed object that is only needed to respond to a single client request (such as a currency converter) has a different
+scope than a managed object that is needed to process multiple client requests within a session (such as a shopping cart).

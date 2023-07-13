@@ -1,0 +1,8 @@
+Q10.What are the limitations of JSP?
+
+Ans = 
+Disadvantages of using JSP:
+
+As the JSP is compiled on the server, it is not memory and time-efficient. It is hard to track errors in JSP files because they are an
+extension to Servlets. The JSP codes are processed into Servlet codes for compilation.
+As JSP is an HTML file, it doesn't provide many features.

@@ -1,0 +1,12 @@
+Q9.Distinguish between a hashmap and a Treemap.
+
+Ans =  HashMap:
+=> HashMap allows heterogeneous elements because it does not perform sorting on keys. 
+=> HashMap is faster than TreeMap because it provides constant-time performance that is O(1) for the basic operations like get() and put().
+=> The HashMap class uses the hash table.
+
+TreeMap:
+=> TreeMap allows homogeneous values as a key because of sorting.
+=> TreeMap is slow in comparison to HashMap because it provides the performance of O(log(n)) for most operations like add(), remove()
+and contains().
+=> TreeMap internally uses a Red-Black tree, which is a self-balancing Binary Search Tree.

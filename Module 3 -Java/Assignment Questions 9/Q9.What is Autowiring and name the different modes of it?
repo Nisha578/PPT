@@ -1,0 +1,34 @@
+Q9.What is Autowiring and name the different modes of it?
+
+Ans = Spring is an open-source application development framework of Java that allows you to create robust enterprise applications
+using Plain Old Java Objects (POJO in short). The Spring framework can inject dependencies automatically. The Spring container detects
+those dependencies specified in the configuration file and @ the relationship between the beans. This is referred to as autowiring in 
+Spring.
+
+There are five modes of autowiring:
+
+1. No
+
+This mode tells the framework that autowiring is not supposed to be done. It is the default mode used by Spring.
+
+2. byName
+
+It uses the name of the bean for injecting dependencies. However, it requires that the name of the property and bean must be the same.
+It invokes the setter method internally for autowiring.
+
+3. byType
+
+It injects the dependency according to the type of the bean. It looks up in the configuration file for the class type of the property.
+If it finds a bean that matches, it injects the property. If not, the program throws an error.
+
+4. constructor
+
+It injects the required dependencies by invoking the constructor. It works similar to the “byType” mode but it looks for the class 
+type of the constructor arguments.
+
+5. autodetect
+
+The autodetect mode uses two other modes for autowiring – constructor and byType. It first tries to autowire via the constructor mode 
+and if it fails, it uses the byType mode for autowiring.
+
+

@@ -1,0 +1,30 @@
+Q.1 What is a Media Query in CSS, and what is its purpose?
+
+Ans => Media queries are used when we want to customize our website's presentation according to the user's screen size. 
+With the help of media queries, you can display different markups based upon the device's general type(mobile, desktop, tablet).
+
+=> A media query is a logical operation. Whenever a media query becomes true, then the related CSS is applied to the target element.
+
+Syntax Of Media Query :
+A media query is composed of two things: media type and expression. A media query can contain one or more expressions. 
+
+Syntax :
+
+@media media-type and (media-feature)
+{
+/* CSS Rules to be applies*/
+}
+Example: 
+
+@media screen and (max-width: 800px)
+{
+#contents{width:90%}
+}
+
+Purpose:
+
+1. Media queries allow us to apply CSS styles depending on a device's general type (such as print vs. screen) or other characteristics
+such as screen resolution or browser viewport width. 
+
+ 2. They allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other
+things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.

@@ -1,0 +1,17 @@
+Q2. Differentiate between Collection and collections in the context of Java.
+
+Ans = Collection:
+=> Collection in Java is simply known as an interface that is present in java.util.package.
+=> Collection is able to form the root or head of the hierarchy of interfaces in the java collection framework.
+
+Declaration of Collection:
+
+public interface Collection<E> extends Iterable<E>
+
+Collections:
+=> Collections in Java is a utility class that is found in java.util.package that defines several.
+=> Collections class uses static methods for computations, also known as utility methods that are used to operate on the collection.
+
+Declaration of Collections: 
+
+public class Collections extends Object

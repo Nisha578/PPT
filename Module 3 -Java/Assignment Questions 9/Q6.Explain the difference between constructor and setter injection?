@@ -1,0 +1,16 @@
+Q6.Explain the difference between constructor and setter injection?
+
+Ans = Constructor Injection:
+-> It doesn’t allow to create circular dependency
+-> Constructor-based DI fixes the order in which the dependencies need to be injected.
+-> Combining with final fields, constructor injection gives extra safety in multithreaded environment
+-> Spring code generation library doesn’t support constructor injection so it will not be able to create proxy.
+It will force you to use no-argument constructor. Spring framework level code uses setter injection
+-> It should be used for mandatory dependencies.
+
+Setter Injection:
+-> It doesn’t check the circular dependency
+-> Setter-based DI helps us to inject the dependency only when it is required, as opposed to requiring it at construction time.
+ -> No extra benefit in setter injection
+-> Spring framework level code uses setter injection
+-> It should be used for optional dependencies.

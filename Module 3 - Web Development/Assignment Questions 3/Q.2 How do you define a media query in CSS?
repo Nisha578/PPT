@@ -1,1 +1,18 @@
 Q.2 How do you define a media query in CSS?
+
+Ans =
+Syntax Of Media Query :
+A media query is composed of two things: media type and expression. A media query can contain one or more expressions. 
+
+Syntax :
+
+@media media-type and (media-feature)
+{
+/* CSS Rules to be applies*/
+}
+Example: 
+
+@media screen and (max-width: 800px)
+{
+#contents{width:90%}
+}

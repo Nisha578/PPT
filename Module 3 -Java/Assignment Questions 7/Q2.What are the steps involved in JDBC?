@@ -1,0 +1,42 @@
+Q2.What are the steps involved in JDBC?
+
+Ans = 1. Import the packages:
+This includes uploading all the packages containing the JDBC classes, interfaces, and subclasses used during the database programming. 
+More often than not, using import java.sql.* is enough. However, other classes can be imported if needed in the program.
+
+2. Register the drivers:
+Before connecting to the database, we’ll need to load or register the drivers once per database. This is done to create a 
+communication channel with the database. Loading a driver can be done in two ways:
+
+Class.forName()
+
+DriverManager.registerDriver()
+
+3. Establish a connection:
+For the next step here, the getConnection() method is used to create a connection object that will correspond to a
+physical connection with the database. To get the getConnection() to access the database, the three parameters are a username, 
+string data type URL, and a password. Two methods can be used to achieve this:
+
+getConnection(URL, username, password): This uses three parameters URL, a password, and a username
+getConnection(URL): This has only one parameter - URL. The URL has both a username and password. 
+
+4. Create a statement:
+The statement can now be created to perform the SQL query when the connection has been established. 
+There are three statements from the createStatement method of the connection class to establish the query. These statements are
+
+
+5. Execute the query:
+This uses a type statement object to build and submit SQL statements to a database. It has four distinct methods:
+
+ResultSet executeQuery(String sql)
+executeUpdate(String sql)
+execute(String sql)
+executeBatch()
+
+6. Retrieve results:
+When queries are executed using the executeQuery() method, it produces results stored in the ResultSet object.
+The ResultSet object is then used to access the retrieved data from the database.
+
+7. Close the connections:
+The JDBC connection can now be closed after all is done. The resource has to be closed to avoid running out of connections.
+It can be done automatically using ‘conn.close();’. But for versions of Java 7 and above, it can be closed using a try-catch block.

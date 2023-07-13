@@ -1,0 +1,16 @@
+Q4.Explain the various interfaces used in the Collection framework.
+
+Ans = List: The List interface extends the Collection interface and represents an ordered collection of elements. 
+Lists allow duplicate elements and maintain the insertion order. Common implementations of List include ArrayList, LinkedList, and Vector.
+
+Set: The Set interface, also an extension of the Collection interface, represents a collection that does not allow 
+duplicate elements. Sets typically do not maintain a specific order of elements. Notable implementations of Set are HashSet, 
+TreeSet, and LinkedHashSet.
+
+Queue: The Queue interface defines a collection that represents a waiting area, where elements are inserted at one end and 
+removed from the other. Queues follow the First-In-First-Out (FIFO) principle. Notable implementations of Queue include LinkedList 
+and PriorityQueue.
+
+Map: The Map interface represents a mapping between unique keys and corresponding values. It does not extend the Collection
+interface but is an important part of the Java Collection framework. Maps do not allow duplicate keys and are commonly used 
+for key-value pair associations. Notable implementations of Map include HashMap, TreeMap, and LinkedHashMap.

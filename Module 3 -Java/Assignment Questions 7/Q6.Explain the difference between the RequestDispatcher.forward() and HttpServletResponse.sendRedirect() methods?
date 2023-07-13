@@ -1,0 +1,9 @@
+Q6.Explain the difference between the RequestDispatcher.forward() and HttpServletResponse.sendRedirect() methods?
+
+Ans = 1. The forward () method of the RequestDispatcher works on the server-side, while the SendRedirect() method works on the client-side.
+
+2. Request dispatcher works on the request object, while SendRedirect() works on the response object.
+
+3. The forward() method is also significantly faster than the SendRedirect(). This is because, unlike the forward() method, 
+the SendRedirect() method necessitates two browser
+requests instead of one.

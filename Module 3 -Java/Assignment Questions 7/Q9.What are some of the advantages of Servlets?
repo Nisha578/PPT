@@ -1,0 +1,10 @@
+Q9.What are some of the advantages of Servlets?
+
+Ans = Advanatages:
+
+1. They are faster than CGI scripts because they use a different process model.
+2. They use a standard API that is supported by many Web servers.
+3. Better performance: because it creates a thread for each request, not process. 
+4. Portability: because it uses Java language. 
+5. Robust: JVM manages Servlets, so we don't need to worry about the memory leak, garbage collection, etc. 
+6. Secure: because it uses java language.

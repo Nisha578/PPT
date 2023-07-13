@@ -1,0 +1,17 @@
+Q1.What is Collection in Java?
+
+Ans = A collection represents a group of objects Java collections provide classes and Interfaces for us to be able to write 
+code interfaces for us to be able to write code quickly and efficiently. 
+-> We need collections for efficient storage and better manipulation of data in java.
+
+import java.util.ArrayList;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Collections {
+    public static void main(String[] args) {
+        // ArrayList
+        // Set
+        // TreeSet
+    }
+}

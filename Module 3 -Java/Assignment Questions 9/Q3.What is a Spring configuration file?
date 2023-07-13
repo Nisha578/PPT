@@ -1,0 +1,8 @@
+Q3.What is a Spring configuration file?
+
+Ans = A Spring configuration file is an XML file that contains the class information. It describes how those classes are configured
+as well as introduced to each other. The XML configuration files, however, are verbose and cleaner.
+
+Spring configuration file is a file with .xml extension and the file contains information about the classes and interfaces and
+their dependencies. Using this file the spring container controls the life cycle of a spring bean and also Dependency Injection is 
+achieved.

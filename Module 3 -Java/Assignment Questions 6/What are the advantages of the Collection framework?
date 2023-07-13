@@ -1,0 +1,6 @@
+What are the advantages of the Collection framework?
+
+Ans = Advantages:
+=> Not necessary to learn multiple ad hoc collection APIs.
+=> It provides a standard interface for collections and also provides algorithms to manipulate them.
+=> It reduces the programming efforts by providing useful data structures and algorithms.

@@ -1,0 +1,6 @@
+Q10.Define LinkedHashMap in Java.
+
+Ans = A LinkedHashMap contains values based on the key. It implements the Map interface and extends the HashMap class. 
+It contains only unique elements. It may have one null key and multiple null values.
+=> The main use of LinkedHashMap in Java is to use it for preserving the insertion order. It can also be used to preserve 
+the access order using which the keys are accessed.

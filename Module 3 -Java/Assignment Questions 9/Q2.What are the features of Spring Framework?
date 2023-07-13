@@ -1,0 +1,27 @@
+Q2.What are the features of Spring Framework?
+
+Ans = Features:
+1. IoC Container
+During runtime, an object needs to be referenced implicitly and the task is taken up by IoC container. This container consists of
+assembler code that takes care of configuration management. 
+
+2. Data Access Framework
+This feature enables the developer to use persistence APIs. For storing persistence data in the database using JDBC.
+
+3. Spring MVC Framework
+This framework feature helps developers in building web applications on the basis of MVC architecture.
+
+4. Transaction Management
+As the name suggests this framework helps in building a transaction management system without intervening with the code. 
+
+5. JDBC Abstraction Layer
+This feature helps the developer in handling errors in an easy and efficient manner. The abstraction layer here helps in reducing
+the JDBC programming code.
+
+
+
+
+
+
+
+

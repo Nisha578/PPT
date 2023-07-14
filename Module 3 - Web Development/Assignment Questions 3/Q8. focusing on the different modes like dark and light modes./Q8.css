@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #262424;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(80, 167, 221);
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  color: #fff;
+  border: 0.05rem solid rgb(80, 167, 221);
+  border-radius: 0.5rem;
+  width: fit-content;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #fff;
+  color: rgb(80, 167, 221);
+  border: 0.05rem solid rgb(80, 167, 221);
+}
+
+header {
+  padding: 1rem 3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 0.02rem 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-weight: 300;
+  margin-right: 20em;
+}
+
+nav ul li a {
+  display: flex;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.left {
+  margin: 10rem 5rem 10rem 10rem;
+}
+
+.s {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.o {
+  font-size: 3.3rem;
+  font-weight: 600;
+  color: rgb(80, 167, 221);
+}
+
+.p {
+  font-size: 1.7rem;
+  color: rgb(80, 167, 221);
+  font-weight: 500;
+}
+
+.left img {
+  width: 25vw;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 70rem;
+  margin-top: -50rem;
+}
+
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 5rem;
+  top: 1.5rem;
+  display: none;
+}
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+@media (max-width: 300px) {
+  .right {
+    margin: 0 2rem;
+  }
+  .burger {
+    display: block;
+  }
+  video {
+    width: 70vw;
+  }
+  button {
+    display: none;
+  }
+  ul,
+  li,
+  a {
+    display: none;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .right {
+    margin: 0 16rem;
+  }
+  .s,
+  .o,
+  .p {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+
+  .img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  video {
+    width: 50vw;
+  }
+
+  ul,
+  li,
+  a {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  button {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 940px) {
+  header {
+    width: 70rem;
+  }
+  .right {
+    margin: 0 16rem;
+  }
+
+  html {
+    font-size: 2rem;
+  }
+  .s,
+  .o,
+  .p {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+
+  .img {
+    width: 7rem;
+    height: 7rem;
+  }
+  ul,
+  li,
+  a {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin: 0 10rem;
+  }
+  button {
+    display: none;
+  }
+}
+
+@media (max-width: 1064px) {
+  html {
+    font-size: 9px;
+  }
+  header {
+    width: 200%;
+  }
+  ul,
+  li,
+  a {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+/* Q8 */
+
+#one {
+  background-color: #000;
+  margin: 5rem 0.5rem;
+}
+
+.p1 {
+  color: blue;
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 8rem 0rem;
+}
+
+.p2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 6.5rem;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 790px) {
+  #one {
+    background-color: #fff;
+  }
+  .p2 {
+    color: #000;
+    text-align: center;
+  }
+}

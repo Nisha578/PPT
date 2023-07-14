@@ -1,0 +1,21 @@
+Q.1 What’s Constructor And Its Purpose?
+
+Ans = A constructor is a special function that creates and initializes an object instance of a class. In JavaScript, a constructor 
+  gets called when an object is created using the new keyword.
+  When a constructor gets invoked in JavaScript, the following sequence of operations take place:
+
+-> A new empty object gets created.
+-> The this keyword begins to refer to the new object and it becomes the current instance object.
+-> The new object is then returned as the return value of the constructor.
+
+  //Constructor
+function User() {
+    this.name = 'Bob';
+}
+
+var user = new User();
+
+The purpose of a constructor is to create a new object and set values for any existing object properties.
+  
+Constructors are used to initialize the objects of the class with initial values. Constructors are invoked automatically when the 
+objects are created. Constructors can have default parameters. 

@@ -1,0 +1,20 @@
+Q.4 Explain OOPS ? 
+
+Ans = Object-Oriented Programming is a programming style based on classes and objects. These group data (properties) and 
+methods (actions) inside a box.
+
+OOP was developed to make code more flexible and easier to maintain.
+
+JavaScript is prototype-based procedural language, which means it supports both functional and object-oriented programming.
+
+Object: An Object is a unique entity that contains properties and methods. For example “a car” is a real-life Object, which has some
+characteristics like color, type, model, and horsepower and performs certain actions like driving. The characteristics of an Object 
+are called Properties in Object-Oriented Programming and the actions are called methods. An Object is an instance of a class. Objects 
+are everywhere in JavaScript, almost every element is an Object whether it is a function, array, or string.
+
+
+Classes: Classes are blueprints of an Object. A class can have many Objects because the class is a template while Objects are instances 
+of the class or the concrete implementation. 
+Before we move further into implementation, we should know unlike other Object Oriented languages there are no classes in JavaScript
+we have only Object. To be more precise, JavaScript is a prototype-based Object Oriented Language, which means it doesn’t have classes, 
+rather it defines behaviors using a constructor function and then reuses it using the prototype. 

@@ -1,0 +1,20 @@
+Q.8 Whats Encapsulation and Purpose of it ?
+
+Ans = You might already be familiar with systems like a vending machine, a bank locker, or even a purse. All of these contain 
+some items in them. Items that are contained within a system are made available to use through the system.
+
+For example, you can not directly access a snack from a vending machine without having to use the machine. The vending machine
+has a few defined procedures which allow you to access the items in it. This is exactly what is meant by Encapsulation.
+
+In the world of programming, encapsulation is the bundling of data with the methods that operate on that data.
+
+Javascript Program:
+
+let student = {
+	id: 12,
+	name: "Isaac",
+	marks: 81
+}
+console.log(student.name) // Prints Isaac
+console.log(student.id) // Prints 12
+console.log(student.marks) // Prints 81

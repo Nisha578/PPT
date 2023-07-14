@@ -1,0 +1,9 @@
+Q.3 What’s Call Apply Bind Method & Difference Between them.
+
+Ans = bind: It binds the function with provided value and context but it does not executes the function.
+To execute function you need to call the function. 
+
+call: It executes the function with provided context and parameter. 
+
+apply: It executes the function with provided context and 
+parameter as array.

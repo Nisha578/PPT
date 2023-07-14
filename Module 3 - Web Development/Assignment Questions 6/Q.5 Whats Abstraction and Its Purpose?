@@ -1,0 +1,26 @@
+Q.5 Whats Abstraction and Its Purpose?
+
+Ans = Abstraction is used to hide background details or any unnecessary implementation about the data so that users only see the
+required information. It is one of the most important and essential features of object-oriented programming. 
+Pre-defined functions are similar to data abstraction.
+
+Objects are the building blocks of Object-Oriented Programming. An object contains some properties and methods. We can hide them 
+from the outer world through access modifiers. We can provide access only for required functions and properties to the other programs.
+This is the general procedure to implement abstraction in OOPS.
+
+function Person() {
+    this.name = "Alex";
+    if (this.constructor === Person) {
+     throw new Error("Your Error Message...");
+    }
+};
+Person.prototype.info = function () {
+    return "Person name is: " + this.name;
+}
+function Teacher(name) {
+    this.name = name;
+}
+
+Teacher.prototype = Object.create(Person.prototype);
+var teacher1 = new Teacher("Stepheny");
+console.log(teacher1.info());

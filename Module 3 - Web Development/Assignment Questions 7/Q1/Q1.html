@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Web Application</title>
+    <!-- link with css file -->
+    <link rel="stylesheet" href="./Q1.css" />
+  </head>
+  <body>
+    <!-- Question 1 -->
+    <!-- <aside>
+💡 **Q.1** Develop a captivating quiz web application with an engaging user interface using HTML, CSS, and JavaScript, incorporating a dynamic leaderboard feature to track and display the scores of participants in real-time with following features
+
+- When the user submits an answer, display a popup to indicate whether the answer is right or wrong as shown in the image.
+- Provide immediate feedback to the user, enhancing their engagement and learning experience.
+- Once the user answers all the questions, present them with a leaderboard.
+- The **leaderboard** should display the number of questions the user answered correctly and incorrectly.
+- Display the user's overall result, showcasing their performance in the quiz.
+
+**Note:** The overall result and leaderboard format should be designed similar to the image provided below.
+
+![quiz web app.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ff4ef13-4fc8-49c8-818f-7766c37f47fe/quiz_web_app.png)
+
+</aside> -->
+
+    <!-- header-section -->
+    <h1 class="h">
+      Quiz Web App
+      <p class="line"></p>
+    </h1>
+
+    <!-- main-section -->
+    <div class="main-container">
+      <h1 class="quiz-head">Quiz App</h1>
+      <!-- center context -->
+      <div class="quiz-container">
+        <div class="box">
+          <div id="question">hgjghh</div>
+          <select id="options">
+            <option value="">--Please choose an option--</option>
+          </select>
+          <button id="submit-btn">Submit</button>
+          <div id="feedback"></div>
+        </div>
+      </div>
+
+      <!-- score container -->
+      <div class="score-container" id="score-container">
+        <div class="quiz-container">
+          <h2>Score</h2>
+          <table id="score"></table>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript file -->
+    <script src="./Q1.js"></script>
+  </body>
+</html>

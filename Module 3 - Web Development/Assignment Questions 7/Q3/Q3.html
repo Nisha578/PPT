@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Finder</title>
+<!-- link with css -->
+<link rel="stylesheet" href="./Q3.css">
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Q3 -->
+    <!-- <aside>
+💡 **Q.3** Develop a **GitHub User Finder** web application using **HTML**, **CSS**, and **JavaScript**. The application should allow users to enter a **GitHub username** and display relevant information about the user, including their avatar and name. The design of the application should follow the layout provided in the image below.
+
+- Use Github Api to get User Data “https://api.github.com/users”
+</aside> -->
+
+  <!-- input box & button  -->
+  <div class="inputbox-button">
+    <h1>GitHub User Finder</h1>
+    <input type="text" placeholder="Enter Username Here:" id="input">
+    <button id="data-btn">Get Data</button>
+</div>
+
+<div class="container" id="container">
+    <div class="image">
+        <img src="" alt="image" id="img">
+    </div>
+    <div class="info">
+        <div class="profile-info">
+            <label>Name:</label>
+            <div id="name"></div>
+        </div>
+
+        <div class="profile-info">
+            <label>Portfolio:</label>
+            <div id="portfolio"></div>
+        </div>
+
+        <div class="profile-info">
+            <label>Location:</label>
+            <div id="location"></div>
+        </div>
+
+        <div class="profile-info">
+            <label>Repo:</label>
+            <div id="repo"></div>
+        </div>
+
+        <div class="profile-info">
+            <label>Bio:</label>
+            <div id="bio"></div>
+        </div>
+
+        <div class="profile-info">
+            <label>Followers:</label>
+            <div id="followers"></div>
+        </div>
+    </div>
+
+    <div id="repositoriesDiv" class="grid-container"></div>
+</div>
+
+    <!-- Javascript File -->
+    <script src="./Q3.js"></script>
+</body>
+</html>

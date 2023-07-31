@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", cursive;
+}
+
+body {
+  background-color: rgb(93, 52, 230);
+}
+
+p {
+  color: rgb(45, 30, 96);
+  font-size: 6.5rem;
+  letter-spacing: 0.6em;
+  text-align: center;
+}
+
+.container {
+  border: none;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: rgb(109, 90, 218);
+  margin: 7em 30em;
+}
+
+span {
+  margin-left: 61px;
+  color: #fff;
+}
+
+#hours,
+#minutes,
+#seconds {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.pa {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}

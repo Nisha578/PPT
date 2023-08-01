@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-list {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        background-color: blue;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+
+.card h3 {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card button {
+padding: 1vh 1vw;
+border-radius: 10px;
+background-color: black;
+color: #ffffff;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+.card img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain; 
+    object-position: center;
+    margin: auto;
+}
+
+/* cart box */
+.cart-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+#cart-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(143, 52, 248);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.cart-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 300px;
+}
+
+.cart-card button {
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+    
+    .cart-card img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain; 
+        object-position: center;
+        margin: auto;
+    }
+
+    @media screen and (max-width: 600px) {
+        .cart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }        
+
+        #cart-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    

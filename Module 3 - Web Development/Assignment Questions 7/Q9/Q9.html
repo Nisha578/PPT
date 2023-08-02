@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Todo Web App</title>
+<!-- link with css file -->
+<link rel="stylesheet" href="./Q9.css">
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- Q9 -->
+<!-- 
+💡 **Q.9** Expand the existing todo web app with two additional functionalities:
+
+1. On clicking the "Update Status" button:
+    - Update the status of the task.
+    - Change the background color of the task to indicate the updated status.
+2. On clicking the "Delete Todo" button:
+    - Remove the selected todo from the UI.
+    - Ensure that the deleted todo is no longer visible in the todo list.
+ -->
+
+ <div class="main">
+    <h2>My Todos</h2>
+    <div class="input-container">
+        <input type="text" id="note" placeholder="Type your note here">
+        <input type="submit" value="Add Todo" id="button">
+    </div>
+    <div id="todo-container"></div>
+ </div>
+
+<!-- Javascript file -->
+<script src="./Q9.js"></script>
+    
+</body>
+</html>

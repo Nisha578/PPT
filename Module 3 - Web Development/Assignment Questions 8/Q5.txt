@@ -1,0 +1,18 @@
+Q.5 Difference between class & function based component.
+
+Ans =
+
+|--------------------------------------------------------------------------|
+|       Function Component           |        Class Component              |
+|--------------------------------------------------------------------------|
+| 1. Function Component is a plain   |1. Class components we have a feature|
+| javascript, we do not have choice  | to set the set state in component.  | 
+| to set the state in function       |                                     |
+| component.                         |                                     |
+|--------------------------------------------------------------------------|
+|2. There is no render function we   | 2. we have a render function which  |
+| are using in function components.  | is use to return the react elements.|
+|--------------------------------------------------------------------------|
+|3. It can only accept the props as  | 3. we have both the options use the |
+| an argument.                       |   props and set the state also.     |
+|--------------------------------------------------------------------------|
